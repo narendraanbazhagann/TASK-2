@@ -14,13 +14,3 @@ void inc(int *number)
     printf("Increment is %d\n",*number);
 }
 
-
-OUTPUT 
-Enter no.7
-
-Original value:7
-
-Increment is 8
-
-After incrementing 8
-
