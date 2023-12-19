@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int number;
+    printf("Enter no.");
+    scanf("%d",&number);
+    printf("Original value:%d\n",number);
+    inc(&number);
+    printf("After incrementing %d\n",number);
+}
+void inc(int *number)
+{
+    *number=*number+1;
+    printf("Increment is %d\n",*number);
+}
+
+
+OUTPUT 
+Enter no.7
+
+Original value:7
+
+Increment is 8
+
+After incrementing 8
+
